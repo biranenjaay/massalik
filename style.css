@@ -186,3 +186,86 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-left,
+    .nav-right {
+        position: static;
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .logo-center {
+        height: 70px;
+        width: 70px;
+        margin: 10px 0;
+    }
+
+    /* HERO */
+    .overlay h2 {
+        font-size: 32px;
+    }
+
+    .overlay h1 {
+        font-size: 18px;
+    }
+
+    .overlay p {
+        font-size: 14px;
+    }
+
+    /* ACTIVITES */
+    .activities {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .box {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* PRESENTATION */
+    .presentation {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .presentation img {
+        width: 180px;
+    }
+
+    /* CARDS */
+    .cards {
+        flex-direction: column;
+    }
+
+    /* CONTACT */
+    .contact {
+        flex-direction: column;
+    }
+
+    iframe {
+        height: 250px;
+    }
+
+    /* CTA */
+    .cta {
+        padding: 30px;
+    }
+}
