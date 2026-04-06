@@ -110,15 +110,19 @@ nav a {
 .presentation {
     display: flex;
     align-items: center;
-    padding: 50px;
-    gap: 30px;
+    padding: 60px;
+    gap: 40px;
     background: #0f5132;
     color: white;
+    border-radius: 10px;
+    margin: 30px;
 }
 
 .presentation img {
-    width: 220px;
+    width: 250px;
     border-radius: 10px;
+    border: 5px solid #d4af37;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
 /* CARDS */
