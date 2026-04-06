@@ -1,181 +1,111 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dahira Massalikoul Djinane - Une communauté au service du mouridisme basée à Dahra Djoloff">
-  <meta name="theme-color" content="#1a1a1a">
-  <title>Dahira Massalikoul Djinane | Touba Dahra Djoloff</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dahira Massalikoul Djinane</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- BARRE SUPÉRIEURE -->
-  <div class="topbar" role="contentinfo">
-    <a href="mailto:info@dahira-massalikoul-dahra.sn" aria-label="Envoyer un e-mail">📧 info@dahira-massalikoul-dahra.sn</a>
-    <a href="tel:+221770000000" aria-label="Appeler">📞 +221 77 000 00 00</a>
-  </div>
+<!-- TOPBAR -->
+<div class="topbar">
+    <span>📧 info@dahira-massalikoul-dahra.sn</span>
+    <span>📞 +221 77 000 00 00</span>
+</div>
 
-  <!-- BARRE DE NAVIGATION -->
-  <header class="navbar">
-    <div class="navbar-container">
-      <a href="#accueil" class="logo-link">
-        <img src="photo/logo.jpg" alt="Logo Dahira Massalikoul Djinane" class="logo">
-      </a>
-      <nav aria-label="Navigation principale">
-        <ul>
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#apropos">À propos</a></li>
-          <li><a href="#activites">Activités</a></li>
-          <li><a href="#evenements">Événements</a></li>
-          <li><a href="#bibliotheque">Bibliothèque</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+<!-- NAVBAR -->
+<header class="navbar">
+    <img src="photo/logo.jpg" class="logo">
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">À propos</a>
+        <a href="#">Activités</a>
+        <a href="#">Événements</a>
+        <a href="#">Bibliothèque</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
 
-  <!-- SECTION HÉROS -->
-  <section class="hero" id="accueil" aria-labelledby="titre-hero">
+<!-- HERO -->
+<section class="hero">
     <div class="overlay">
-      <h1 id="titre-hero">Massalikoul Djinane</h1>
-      <p>Touba Dahra Djoloff</p>
-      <a href="#activites" class="btn btn-primary">Nos Activités</a>
+        <h1>Bienvenue au Dahira</h1>
+        <h2>Massalikoul Djinane</h2>
+        <p>Touba Dahra Djoloff</p>
+        <button>Nos Activités</button>
     </div>
-  </section>
+</section>
 
-  <!-- ACTIVITÉS -->
-  <section class="activities" id="activites" aria-label="Activités principales">
-    <div class="activities-grid">
-      <article class="box" tabindex="0">
-        <span class="icon">🕌</span>
-        <h3>Ziarra</h3>
-      </article>
-      <article class="box" tabindex="0">
-        <span class="icon">🎤</span>
-        <h3>Conférences</h3>
-      </article>
-      <article class="box" tabindex="0">
-        <span class="icon">🤝</span>
-        <h3>Social</h3>
-      </article>
-      <article class="box" tabindex="0">
-        <span class="icon">📚</span>
-        <h3>Khassidas</h3>
-      </article>
+<!-- ACTIVITES -->
+<section class="activities">
+    <div class="box">🕌 Nos Ziarra</div>
+    <div class="box">🎤 Conférences</div>
+    <div class="box">🤝 Actions Sociales</div>
+    <div class="box">📚 Khassidas & Vidéos</div>
+</section>
+
+<!-- PRESENTATION -->
+<section class="presentation">
+    <img src="photo/serigne.jpg">
+    <div>
+        <h2>Un Dahira au service de l'Islam et du Mouridisme</h2>
+        <p>Découvrez notre mission, notre histoire et nos objectifs.</p>
+        <button>En savoir plus</button>
     </div>
-  </section>
+</section>
 
-  <!-- PRÉSENTATION -->
-  <section class="presentation" id="apropos" aria-labelledby="titre-presentation">
-    <img src="photo/images (1).jpg" alt="Présentation du Dahira Massalikoul Djinane">
-    <article>
-      <h2 id="titre-presentation">Un Dahira au service de l'Islam</h2>
-      <p>Découvrez notre mission et nos objectifs</p>
-      <a href="#apropos" class="btn btn-secondary">En savoir plus</a>
-    </article>
-  </section>
-
-  <!-- ÉVÉNEMENTS -->
-  <section class="events" id="evenements" aria-label="Événements à venir">
+<!-- EVENTS -->
+<section class="events">
     <h2>Événements à venir</h2>
     <div class="cards">
-      <article class="card">
-        <h3>Magal annuel</h3>
-        <p>Célébration annuelle importante</p>
-      </article>
-      <article class="card">
-        <h3>Ziarra</h3>
-        <p>Visite spirituelle</p>
-      </article>
-      <article class="card">
-        <h3>Conférence</h3>
-        <p>Conférence religieuse</p>
-      </article>
+        <div class="card">
+            <h3>Grand Ziarra Annuel</h3>
+            <p>15 Août 2026</p>
+        </div>
+        <div class="card">
+            <h3>Magal Dahra</h3>
+            <p>28 Août 2026</p>
+        </div>
+        <div class="card">
+            <h3>Conférence Religieuse</h3>
+            <p>10 Septembre 2026</p>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- ACTUALITÉS -->
-  <section class="news" aria-label="Actualités récentes">
-    <h2>Actualités</h2>
+<!-- ACTUALITES -->
+<section class="news">
+    <h2>Nos Dernières Actualités</h2>
     <div class="cards">
-      <article class="card">
-        <h3>Nouvelle conférence</h3>
-        <time datetime="2026-04-06">Récemment</time>
-      </article>
-      <article class="card">
-        <h3>Retour Magal</h3>
-        <time datetime="2026-04-06">Récemment</time>
-      </article>
-      <article class="card">
-        <h3>Appel aux dons</h3>
-        <time datetime="2026-04-06">Récemment</time>
-      </article>
+        <div class="card">Nouvelle Conférence</div>
+        <div class="card">Magal 2026</div>
+        <div class="card">Appel aux Dons</div>
     </div>
-  </section>
+</section>
 
-  <!-- ADHÉSION -->
-  <section class="cta" aria-label="Adhésion et dons">
+<!-- CTA -->
+<section class="cta">
     <h2>Adhérer au Dahira</h2>
-    <div class="cta-buttons">
-      <button class="btn btn-secondary" onclick="location.href='#adhesion'">Devenir membre</button>
-      <button class="btn btn-gold" onclick="location.href='#faire-don'">Faire un don</button>
+    <button>Devenir Membre</button>
+    <button class="gold">Faire un Don</button>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <div>
+        <h3>Contactez-nous</h3>
+        <p>Dahra Djoloff</p>
+        <p>+221 77 000 00 00</p>
     </div>
-  </section>
+    <iframe src="https://maps.google.com/maps?q=dahra&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
 
-  <!-- FORMULAIRE DE CONTACT -->
-  <section class="contact" id="contact" aria-label="Formulaire de contact">
-    <div class="contact-container">
-      <article class="contact-info">
-        <h2>Nous Contacter</h2>
-        <address>
-          <p><strong>Localisation :</strong> Dahra Djoloff</p>
-          <p><strong>Téléphone :</strong> <a href="tel:+221770000000">+221 77 000 00 00</a></p>
-          <p><strong>E-mail :</strong> <a href="mailto:info@dahira-massalikoul-dahra.sn">info@dahira-massalikoul-dahra.sn</a></p>
-        </address>
-      </article>
-      
-      <form class="contact-form" action="#" method="POST" aria-label="Formulaire de contact">
-        <div class="form-group">
-          <label for="nom">Nom complet *</label>
-          <input type="text" id="nom" name="nom" required aria-required="true" placeholder="Votre nom">
-        </div>
-        <div class="form-group">
-          <label for="email">Adresse e-mail *</label>
-          <input type="email" id="email" name="email" required aria-required="true" placeholder="Votre e-mail">
-        </div>
-        <div class="form-group">
-          <label for="message">Message *</label>
-          <textarea id="message" name="message" rows="5" required aria-required="true" placeholder="Votre message"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Envoyer</button>
-      </form>
-
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3858359752256!2d-15.256!3d13.946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1ae7e7e7e7e7e7%3A0x1!2sDahra%20Djoloff!5e0!3m2!1sfr!2ssn!4v1234567890" 
-        width="100%" 
-        height="400" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade"
-        aria-label="Carte Google Maps de Dahra Djoloff">
-      </iframe>
-    </div>
-  </section>
-
-  <!-- PIED DE PAGE -->
-  <footer role="contentinfo">
-    <p>&copy; 2026 Dahira Massalikoul Djinane. Tous droits réservés.</p>
-    <nav aria-label="Liens supplémentaires" class="footer-nav">
-      <a href="#" title="Politique de confidentialité">Confidentialité</a>
-      <a href="#" title="Conditions d'utilisation">Conditions</a>
-      <a href="https://twitter.com" aria-label="Nous suivre sur Twitter">Twitter</a>
-      <a href="https://facebook.com" aria-label="Nous suivre sur Facebook">Facebook</a>
-    </nav>
-  </footer>
+<footer>
+    <p>© 2026 Dahira Massalikoul Djinane</p>
+</footer>
 
 </body>
 </html>
