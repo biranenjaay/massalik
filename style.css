@@ -56,18 +56,21 @@ nav a {
 /* HERO */
 .hero {
     height: 85vh;
-    background: url('photo/mosquee.jpg') center/cover no-repeat;
+    background: url('images.jpg') center/cover no-repeat;
 }
 
 .overlay {
     background: rgba(0,0,0,0.5);
-    height: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  .overlay h2 {
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+}
+
+.overlay button {
+    background: linear-gradient(45deg, #0f5132, #198754);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
 }
 
 .overlay h1 {
